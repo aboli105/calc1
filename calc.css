@@ -1,0 +1,54 @@
+#main {
+    width: 30%;
+    height: 379px;
+    margin-left: 35%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 10px grey;
+    border: 2px solid black;
+    background-color: black;
+}
+
+
+#main1{
+    width: 100%;
+    height: 100px;
+
+  
+}
+#display {
+    width: 100%;
+    height: 93px;
+    
+    border: 5px solid white;
+    background-color: grey;
+}
+#display > input{
+ 
+     margin-left: 12%;
+        margin-top: 1%;
+        width: 77%;
+        height: 78%;
+    
+}
+#number{
+    width: 70%;
+    height: 249px;
+    border: 1px solid black;
+    float: left;
+}
+#add1{
+    width: 30%;
+    height: 240px;
+    border: 1px solid black;
+    float: left;
+
+}
+#number>.btn {
+    width: 31%;
+    height: 24%;
+    margin-top: 3%;}
+#add1 > .btn{
+    width:100%;
+    height:20%;
+    margin-top: 5%;
+}    

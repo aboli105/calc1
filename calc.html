@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="calc.js"></script>
+        <link href="calc.css" rel="stylesheet" type="text/css"/>
+        <script>
+            
+        </script>
+        
+    </head>
+    <body>
+        <h1 style="text-align: center; font-weight: bold;font-style: italic;" >A B Calculator</h1>
+         <div id="main">
+             <div id="main1">
+               <div id="display">
+                <input type="text" id="result"/>
+                
+                
+               </div>
+             </div>
+             <div id="number">
+                <button type="button" class="btn btn-dark" value="1"onClick="display('1')" >1</button>  
+                <button type="button" class="btn btn-dark"  value="2"onClick="display('2')" >2</button>  
+                <button type="button" class="btn btn-dark"  value="3"onClick="display('3')" >3</button>   
+                <button type="button" class="btn btn-dark"  value="4"onClick="display('4')" >4</button>  
+                <button type="button" class="btn btn-dark" value="5"onClick="display('5')" >5</button>  
+                <button type="button" class="btn btn-dark" value="6"onClick="display('6')" >6</button>  
+                <button type="button" class="btn btn-dark" value="7"onClick="display('7')" >7</button>  
+                <button type="button" class="btn btn-dark" value="8"onClick="display('8')" >8</button>  
+                <button type="button" class="btn btn-dark" value="9"onClick="display('9')" >9</button>  
+                <button type="button" class="btn btn-dark" value="0"onClick="display('0')" >0</button>
+                <button class="btn btn-primary" value="ce" onclick="ce()">CE</button>  
+             </div>
+             <div id="add1">
+                <button type="button" class="btn btn-dark" onClick="display('+')">+</button>
+                <button type="button" class="btn btn-dark" onClick="display('-')">-</button>
+                <button type="button" class="btn btn-dark" onClick="display('*')">x</button>
+                <button type="button" class="btn btn-dark" onClick="display('/')">/</button>
+    
+                <button type="button" class="btn btn-danger"value="=" onclick= calc()>=</button>
+            </div>
+           
+         </div>
+                 
+            </div>
+        </div>
+    </body>
+</html>
